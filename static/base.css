@@ -1,0 +1,46 @@
+main, header {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 10px;
+    border-bottom: 2px solid black;
+}
+.form-container {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 50px;
+    border: solid grey 2px;
+    border-radius: 5px;
+    padding: 15px;
+    background-color: aqua;
+}
+
+.form-container form {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.btn-primary {
+    background-color: black;
+    color: aqua;
+    border-radius: 50%;
+}
+
+.nav-link {
+    color: black;
+}
+
+header {
+    background-color: aqua;
+}
+ 
+.table {
+    background-color: aqua;
+    border: 2px solid black;
+}
